@@ -1,6 +1,6 @@
 {
 	"name": "ts-lib",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"main": "index.js",
 	"license": "MIT",
 	"devDependencies": {
@@ -14,7 +14,9 @@
 		"typescript": "^3.8.3",
 		"tslint-config-prettier": "^1.18.0",
 		"tslint-immutable": "^6.0.1",
-		"minimist": "^1.2.3"
+		"minimist": "^1.2.3",
+		"dot-prop": "6.0.1",
+		"node-notifier": "^9.0.0"
 	},
 	"scripts": {
 		"build": "trash dist && tsc",
